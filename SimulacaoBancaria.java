@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class SimulacaoBancaria {
 
     public static void main(String[] args) {
+
         Scanner scanner = new Scanner(System.in); 
         double saldo = 0; 
         // Loop infinito para manter o programa em execução até que o usuário decida sair
@@ -39,7 +40,7 @@ public class SimulacaoBancaria {
                 break;
             
         
-        
+
         // Exibe mensagem de opção inválida se o usuário escolher uma opção inválida:    
                 default:
                     System.out.println("Opção inválida. Tente novamente."); 
